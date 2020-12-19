@@ -1,11 +1,8 @@
+/* The following declarations apply to the header*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-body {
-    background-color: #d9dcd6;
 }
 
 .header {
@@ -47,10 +44,13 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
+/* The following applies to the body including the header*/
+body {
+    background-color: #d9dcd6;
 }
 
+
+/* The following declarations apply to the main image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -60,6 +60,15 @@ p {
     background-position: center;
 }
 
+/* The following declarations apply to the sections within the article*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+p {
+    font-size: 16px;
+}
 .float-left {
     float: left;
     margin-right: 25px;
@@ -70,12 +79,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
+/* The following declaratoins apply to the aside (side bar)*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -189,6 +194,7 @@ p {
     font-size: 36px;
 }
 
+/* The following declartions apply to the footer*/
 .footer {
     padding: 30px;
     clear: both;

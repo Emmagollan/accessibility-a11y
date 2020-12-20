@@ -1,10 +1,15 @@
-/* The following declarations apply to the header*/
+/* This applies to the entire body, including header and footer*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+body {
+    background-color: #d9dcd6;
+}
+
+/* The following apply to the header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -30,10 +35,6 @@
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -43,12 +44,6 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
-/* The following applies to the body including the header*/
-body {
-    background-color: #d9dcd6;
-}
-
 
 /* The following declarations apply to the main image*/
 .hero {
@@ -66,9 +61,11 @@ body {
     display: inline-block;
     margin-left: 20px;
 }
+
 p {
     font-size: 16px;
 }
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -79,6 +76,23 @@ p {
     margin-left: 25px;
 }
 
+.search-online-social {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-online-social img {
+    max-height: 200px;
+}
+
+.search-online-social h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
 /* The following declaratoins apply to the aside (side bar)*/
 .benefits {
@@ -92,106 +106,20 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead-brand-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-lead-brand-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-lead-brand-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* The following declartions apply to the footer*/
@@ -200,8 +128,7 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
     font-size: 20px;
 }
+
+
